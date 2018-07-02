@@ -199,6 +199,19 @@ footer .footerContents {
 /* max-width 470px*/
 
 @media only screen and (max-width: 470px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+header p {
+  display: none;
+}
+
+  header img {
+   justify-content: center;
+  }
+
   #fullWidthNav {
     display: none;
   }
