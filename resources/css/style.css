@@ -204,6 +204,10 @@ footer .footerContents {
     justify-content: center;
   }
 
+header {
+width: 100%;
+}
+
 header p {
   display: none;
 }
@@ -212,6 +216,9 @@ header p {
    justify-content: center;
   }
 
+  bannerContainer {
+    width: 100%;
+  }
   #fullWidthNav {
     display: none;
   }
