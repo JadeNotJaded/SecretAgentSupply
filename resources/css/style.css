@@ -211,7 +211,7 @@ footer .footerContents {
     width: 47%;
   }
 
-  .product #glassesContainer {
+  #glassesContainer  {
     display: none;
   }
 }
@@ -227,7 +227,7 @@ footer .footerContents {
     margin: auto;
   }
 
-  .product #celluarWatch {
+  #celluarWatch  {
     display: none;
   }
 
@@ -239,6 +239,7 @@ footer .footerContents {
 
 @media only screen and (max-width: 470px) {
   footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
